@@ -1,35 +1,39 @@
-/* styles.css */
-
 /* Global styles */
 body {
-    font-family: Times New Roman, sans-serif;
+    font-family: 'Times New Roman', sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #2c2a4a; /* Dark purple background */
+    color: #ffcc00; /* Light text for contrast */
 }
 
 header, main, footer {
     padding: 10px;
 }
 
-h1, h2, h3 {
-    color: #333;
+h1 {
+    color: #ffdab9; /* Golden color for h1 */
 }
 
+h2, h3 {
+    color: #ffdab9; /* Champaign color for h2 and h3 */
+}
 
 /* Header styles */
+/* Header styles */
 header {
-    background-color: #d5f2de;
+    background-color: #423d5f; /* Slightly lighter purple for the header */
     text-align: center;
+    color: #dcd0ff; /* Light text color */
 }
+
 
 /* Section styles */
 section {
     margin-bottom: 10px;
-}
-
-h2 {
-    color: #813;
-    margin-bottom: 10px;
+    background-color: #3a3650; /* Dark background for sections */
+    padding: 10px; /* Added padding for spacing */
+    border-radius: 8px; /* Rounded corners for aesthetics */
 }
 
 ul {
@@ -40,32 +44,60 @@ ul {
 
 li {
     margin-bottom: 5px;
+    color: #dcd0ff; /* Light text color for list items */
 }
 
 /* Footer styles */
 footer {
-    background-color: #d5f2de;
+    background-color: #423d5f; /* Keeping footer consistent with the header */
     text-align: center;
     color: #777;
     font-size: 14px;
+    padding: 10px;
 }
 
 .header-content {
     display: flex;
     align-items: flex-start;
+    justify-content: center; /* Center content if there's space */
 }
 
 .profile-image {
     max-width: 20%;
     height: auto;
+    border-radius: 50%; /* Rounded border for the image */
 }
 
 .description {
     margin-left: 20px;
-    font-size:20px
+    font-size: 20px;
+    color: #dcd0ff; /* Light text color for smaller text */
+}
+
+.description h1 {
+    color: #ffcc00; /* Golden color for name */
+}
+
+.description p {
+    color: #dcd0ff; /* Light text color for paragraphs */
 }
 
 .left-aligned-section {
     text-align: left;
+    color: #dcd0ff; /* Ensuring text is readable against the dark background */
 }
 
+/* Link styles */
+a {
+    color: #8a9af4; /* Lighter blue for links to stand out */
+    text-decoration: none; /* Optional: Removes underline from links */
+}
+
+a:hover {
+    color: #ffdab9; /* A lighter champaign color when hovered */
+    text-decoration: underline; /* Optional: Adds underline on hover */
+}
+
+a:visited {
+    color: #b19cd9; /* A different shade for visited links */
+}
