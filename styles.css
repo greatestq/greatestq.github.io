@@ -16,6 +16,7 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
+    background-color: #ffffff;
 }
 
 /* Header Section */
@@ -23,8 +24,8 @@ body {
     display: grid;
     grid-template-columns: 2fr 1fr;
     gap: 40px;
-    margin-bottom: 40px;
-    padding-bottom: 30px;
+    margin-bottom: 25px;
+    padding-bottom: 20px;
     border-bottom: 1px solid #e0e0e0;
 }
 
@@ -39,16 +40,32 @@ body {
 }
 
 .profile-info h1 {
-    font-size: 2.5rem;
+    font-size: 1.8rem;
     font-weight: 700;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     color: #000000;
 }
 
 .bio {
-    font-size: 1.1rem;
-    line-height: 1.7;
+    font-size: 1rem;
+    line-height: 1.6;
     color: #333333;
+    margin-bottom: 10px;
+}
+
+.cv-link {
+    margin-top: 10px;
+}
+
+.cv-link a {
+    font-size: 0.9rem;
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.cv-link a:hover {
+    color: #004499;
+    text-decoration: underline;
 }
 
 .profile-photo {
@@ -56,8 +73,8 @@ body {
 }
 
 .photo {
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
     object-fit: cover;
     border-radius: 8px;
     border: 2px solid #e0e0e0;
@@ -65,9 +82,9 @@ body {
 
 /* Contact Section */
 .contact-section h2 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 600;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     color: #000000;
 }
 
@@ -76,8 +93,8 @@ body {
 }
 
 .contact-list li {
-    margin-bottom: 12px;
-    font-size: 0.95rem;
+    margin-bottom: 8px;
+    font-size: 0.9rem;
     color: #333333;
 }
 
@@ -89,53 +106,44 @@ body {
 /* Main Content Sections */
 main {
     display: grid;
-    gap: 30px;
+    gap: 15px;
+    background-color: #ffffff;
 }
 
 section {
     padding: 0;
-    background-color: transparent;
+    background-color: #ffffff;
     border: none;
     border-radius: 0;
 }
 
 section h2 {
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     font-weight: 600;
-    margin-bottom: 20px;
+    margin-bottom: 8px;
     color: #000000;
     border-bottom: 1px solid #e0e0e0;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
 }
 
 section h3 {
-    font-size: 1.1rem;
-    font-weight: 600;
-    margin-bottom: 10px;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 0;
     color: #000000;
 }
 
 /* Education Section Specific Styling */
-.education-section h3 {
-    font-size: 1rem;
-    font-weight: 500;
-    margin-bottom: 8px;
-    color: #666666;
-}
-
-.education-section ul {
-    margin-bottom: 20px;
-}
-
-.education-section li {
-    margin-bottom: 5px;
-    font-size: 1rem;
+.education-section .degree {
+    font-size: 0.85rem;
     color: #333333;
+    margin-bottom: 0;
+    margin-top: 2px;
 }
 
-.education-section strong {
-    color: #000000;
-    font-weight: 600;
+.education-section em {
+    font-style: italic;
+    color: #333333;
 }
 
 /* Lists */
@@ -144,18 +152,18 @@ ul {
 }
 
 li {
-    margin-bottom: 10px;
+    margin-bottom: 8px;
     color: #333333;
 }
 
 .project-list li,
 .course-list li {
-    margin-bottom: 15px;
+    margin-bottom: 8px;
 }
 
 .project-list a,
 .course-list a {
-    font-size: 1rem;
+    font-size: 0.95rem;
     color: #0066cc;
     text-decoration: none;
     transition: color 0.2s ease;
@@ -181,12 +189,13 @@ a:hover {
 
 /* Footer */
 footer {
-    margin-top: 40px;
+    margin-top: 25px;
     padding: 20px 0;
     text-align: center;
     border-top: 1px solid #e0e0e0;
     color: #666666;
     font-size: 0.9rem;
+    background-color: #ffffff;
 }
 
 /* Responsive Design */
@@ -202,7 +211,7 @@ footer {
     }
     
     .profile-info h1 {
-        font-size: 2rem;
+        font-size: 1.6rem;
     }
     
     .photo {
