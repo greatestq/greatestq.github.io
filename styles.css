@@ -25,7 +25,7 @@ body {
     gap: 40px;
     margin-bottom: 40px;
     padding-bottom: 30px;
-    border-bottom: 2px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
 }
 
 .profile-section {
@@ -93,10 +93,10 @@ main {
 }
 
 section {
-    padding: 30px;
-    background-color: #fafafa;
-    border-radius: 8px;
-    border: 1px solid #e0e0e0;
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
 }
 
 section h2 {
@@ -104,15 +104,38 @@ section h2 {
     font-weight: 600;
     margin-bottom: 20px;
     color: #000000;
-    border-bottom: 2px solid #000000;
+    border-bottom: 1px solid #e0e0e0;
     padding-bottom: 10px;
 }
 
 section h3 {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     font-weight: 600;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     color: #000000;
+}
+
+/* Education Section Specific Styling */
+.education-section h3 {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 8px;
+    color: #666666;
+}
+
+.education-section ul {
+    margin-bottom: 20px;
+}
+
+.education-section li {
+    margin-bottom: 5px;
+    font-size: 1rem;
+    color: #333333;
+}
+
+.education-section strong {
+    color: #000000;
+    font-weight: 600;
 }
 
 /* Lists */
@@ -161,7 +184,7 @@ footer {
     margin-top: 40px;
     padding: 20px 0;
     text-align: center;
-    border-top: 2px solid #e0e0e0;
+    border-top: 1px solid #e0e0e0;
     color: #666666;
     font-size: 0.9rem;
 }
@@ -189,7 +212,7 @@ footer {
     }
     
     section {
-        padding: 20px;
+        padding: 0;
     }
     
     .container {
