@@ -3,96 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eunkyu (Q) Kim Webpage</title>
+    <title>Eunkyu (Q) Kim - Personal Website</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-    <header>
-        <div class="header-content">
-            <video controls autoplay loop muted class="profile-video">
-                <source src="Original_Dataset.avi" type="video/avi">
-                Your browser does not support the video tag.
-            </video>
-            <div class="description">
-                <h1>Eunkyu (Q) Kim</h1>
-                <p>Hello, I am a senior mechanical engineering student interested in fluid mechanics and dynamics & controls. This website contains information about me and some of the works I've done over the course of my engineering education. I am currently planning to continue my education at the graduate level.</p>
+    <div class="container">
+        <!-- Header Section with Name, Bio, Photo, and Contact -->
+        <header class="header-section">
+            <div class="profile-section">
+                <div class="profile-info">
+                    <h1>Eunkyu (Q) Kim</h1>
+                    <p class="bio">Hello, I am a graduate student interested in fluid mechanics and dynamics & controls. This website contains information about me and some of the works I've done over the course of my engineering education.</p>
+                </div>
+                <div class="profile-photo">
+                    <img src="eunkyu.jpg" alt="Eunkyu Kim" class="photo">
+                </div>
             </div>
-        </div>
-    </header>
-
-    <main>
-        <section class="education-and-resume">
-            <h2>Education</h2>
-            <h3>The Cooper Union for The Advancement of Science and Art, New York, NY (Expected Graduation: 2024 May)</h3>
-            <ul>
-                <li><strong>Major:</strong> B.Eng in Mechanical Engineering</li>
-                <li><strong>Minor:</strong> Mathematics</li>
-                <li><strong>Academic Interests:</strong> Fluid Mechanics, Dynamics & Controls</li>
-            </ul>
-
-            <h2>Resume</h2>
-            <p><a href="CV (01.07.2024).pdf">Download CV</a></p>
-        </section>
-
-        <section class="left-aligned-section">
-            <h2>Contact</h2>
-            <ul>
-                <li><strong>Email (Personal):</strong> eunkyu.q.k@gmail.com</li>
-                <li><strong>Email (School):</strong> kim76@cooper.edu</li>
-                <li><strong>Phone:</strong> +1 347-209-0554, +82 010 3280 8927</li>
-                <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/eunkyu-q-kim/">https://www.linkedin.com/in/eunkyu-q-kim/</a></li>
-                <li><strong>GitHub:</strong> <a href="https://github.com/greatestq">https://github.com/greatestq</a></li>
-            </ul>
-        </section>
-
-        <!-- The rest of the sections remain unchanged -->
-
-        <section>
-            <h2>Research Experience</h2>
-            <ul>
-                <li>
-                    <h3>Publications</h3>
-                    <p>Gyroscopic Control of Robotic Smart Vehicles Using SO3 (ASME-IMECE2023) - Advisor: Dr. D.M. Luchtenburg</p>
-                    <p>Camera to Motion Tracking System Calibration Algorithm (in preparation) - Advisor: Dr. M. Shah</p>
-                </li>
-                <li>
-                    <h3>Conference Proceedings</h3>
-                    <p>Laser-induced Entanglement of Liquid Metal and Metallic Nanowire for the Monolithically Variable Stretchable Conductor - The European Materials Research Society at Warsaw University of Technology 2022</p>
-                </li>
-                <li>
-                    <h3>Internship</h3>
-                    <p><a href="https://sites.google.com/view/mfelkorea/home">Undergraduate Research Intern - Korea University (2023 May - Current)</a></p>
-                    <p><a href="https://ants.snu.ac.kr/">Undergraduate Research Intern - Seoul National University (2022 March - 2022 Aug)</a></p>
-                </li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>Work Experience</h2>
-            <ul>
-                <li>
-                    <h3>TA, Tutor (2022 Aug - 2023 May)</h3>
-                    <p>Physics Laboratory, Calculus II, Linear Algebra, Space Dynamics</p>
-                </li>
-                <li>
-                    <h3>Korean Army (2020 Aug - 2022 March)</h3>
-                    <p>Reconnaissance Battalion, ROKA</p>
-                </li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>Courses/Projects/Tools</h2>
-            <nav>
-                <ul>
-                    <li><a href="courses.html">Courses/Projects/Tools</a></li>
+            
+            <div class="contact-section">
+                <h2>Contact</h2>
+                <ul class="contact-list">
+                    <li><strong>Email (Personal):</strong> eunkyu.q.k@gmail.com</li>
+                    <li><strong>Email (School):</strong> kim76@cooper.edu</li>
+                    <li><strong>Phone:</strong> +1 347-209-0554, +82 010 3280 8927</li>
+                    <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/eunkyu-q-kim/">https://www.linkedin.com/in/eunkyu-q-kim/</a></li>
+                    <li><strong>GitHub:</strong> <a href="https://github.com/greatestq">https://github.com/greatestq</a></li>
                 </ul>
-            </nav>
-        </section>
-    </main>
+            </div>
+        </header>
 
-    <footer>
-        <p>&copy; Last Updated: 2024 Feb</p>
-    </footer>
+        <main>
+            <!-- Education and CV Section -->
+            <section class="education-section">
+                <h2>Education</h2>
+                <h3>The Cooper Union for The Advancement of Science and Art, New York, NY (Expected Graduation: 2024 May)</h3>
+                <ul>
+                    <li><strong>Major:</strong> B.Eng in Mechanical Engineering</li>
+                    <li><strong>Minor:</strong> Mathematics</li>
+                    <li><strong>Academic Interests:</strong> Fluid Mechanics, Dynamics & Controls</li>
+                </ul>
+
+                <h2>CV</h2>
+                <p><a href="CV (01.07.2024).pdf">Download CV</a></p>
+            </section>
+
+            <!-- Research Section -->
+            <section class="research-section">
+                <h2>Research</h2>
+                <ul class="project-list">
+                    <li><a href="research/gyroscopic-control.html">Gyroscopic Control of Robotic Smart Vehicles Using SO3 (ASME-IMECE2023)</a></li>
+                    <li><a href="research/camera-calibration.html">Camera to Motion Tracking System Calibration Algorithm</a></li>
+                    <li><a href="research/laser-entanglement.html">Laser-induced Entanglement of Liquid Metal and Metallic Nanowire</a></li>
+                    <li><a href="research/korea-university.html">Undergraduate Research Intern - Korea University (2023 May - Current)</a></li>
+                    <li><a href="research/snu-internship.html">Undergraduate Research Intern - Seoul National University (2022 March - 2022 Aug)</a></li>
+                </ul>
+            </section>
+
+            <!-- Teaching Section -->
+            <section class="teaching-section">
+                <h2>Teaching</h2>
+                <ul class="course-list">
+                    <li><a href="teaching/physics-lab.html">Physics Laboratory</a></li>
+                    <li><a href="teaching/calculus-ii.html">Calculus II</a></li>
+                    <li><a href="teaching/linear-algebra.html">Linear Algebra</a></li>
+                    <li><a href="teaching/space-dynamics.html">Space Dynamics</a></li>
+                </ul>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; Last Updated: 2024 Feb</p>
+        </footer>
+    </div>
 </body>
 </html>
